@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakareber Juliet Laura - Professional Portfolio</title>
+    <!-- FontAwesome for programming icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #1e3a8a; /* Professional Blue */
+            --accent-color: #3b82f6; /* Bright Blue Accent */
+            --bg-color: #f8fafc; /* Clean, light background */
+            --card-bg: #ffffff;
+            --text-color: #334155;
+            --pill-bg: #eff6ff;
+            --pill-hover: #dbeafe;
+            --border-color: #e2e8f0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 2rem 1rem;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 3rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            border-top: 5px solid var(--primary-color);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5rem;
+            }
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .profile-img-container {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 1.5rem auto;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 4px solid var(--primary-color);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .profile-img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        header h1 {
+            margin: 0;
+            color: var(--primary-color);
+            font-size: 2.2rem;
+        }
+
+        header p.subtitle {
+            font-weight: 600;
+            color: var(--accent-color);
+            margin: 0.5rem 0 1.25rem 0;
+        }
+
+        /* Oval Contact Pills */
+        .contact-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.6rem;
+            margin: 1rem 0;
+        }
+
+        .contact-links a, .contact-links span.location {
+            background-color: var(--pill-bg);
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 50px; /* Creates the oval pill shape */
+            border: 1px solid #bfdbfe;
+            transition: all 0.2s ease;
+            display: inline-block;
+        }
+
+        .contact-links a:hover {
+            background-color: var(--pill-hover);
+            color: var(--accent-color);
+            transform: translateY(-2px);
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+        }
+
+        header blockquote {
+            font-style: italic;
+            color: #475569;
+            margin-top: 1.25rem;
+            border-left: 3px solid var(--primary-color);
+            padding-left: 1rem;
+            display: inline-block;
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+        }
+
+        section h2 {
+            color: var(--primary-color);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.3rem;
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+        }
+
+        ul.content-list {
+            padding-left: 1.2rem;
+        }
+
+        ul.content-list li {
+            margin-bottom: 0.75rem;
+        }
+
+        .skill-icon {
+            margin-right: 8px;
+            font-size: 1.1rem;
+        }
+
+        .fa-python { color: #3776ab; }
+        .fa-html5 { color: #e34f26; }
+
+        .item-block {
+            margin-bottom: 1.25rem;
+        }
+
+        .item-block h4 {
+            margin: 0 0 0.25rem 0;
+            color: var(--accent-color);
+            font-size: 1.1rem;
+        }
+
+        .item-block span.meta {
+            font-size: 0.85rem;
+            color: #64748b;
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            font-size: 0.85rem;
+            color: #64748b;
+            border-top: 1px solid var(--border-color);
+            padding-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="profile-img-container">
+                <img src="laura.jpeg" alt="Lakareber Juliet Laura">
+            </div>
+            <h1>Lakareber Juliet Laura</h1>
+            <p class="subtitle">Data Science and Analytics | Leadership | Emerging Technology | Community Development</p>
+            
+            <div class="contact-links">
+                <span class="location">Gulu, Uganda</span>
+                <a href="tel:+256761464787">Phone: 0761464787</a>
+                <a href="mailto:lakareberjulietlaura@gmail.com">Email: lakareberjulietlaura@gmail.com</a>
+                <a href="https://www.linkedin.com/search/results/all/?keyword=Lakareber%20Juliet%20Laura" target="_blank">LinkedIn: Lakareber Juliet Laura</a>
+                <a href="https://twitter.com/L8390laura" target="_blank">Twitter: @L8390laura</a>
+                <a href="https://www.tiktok.com/@Lolo" target="_blank">TikTok: @Lolo</a>
+                <a href="https://www.instagram.com/laura788476" target="_blank">Instagram: @laura788476</a>
+            </div>
+
+            <blockquote>“Build with Curiosity. Analyze with Care. Secure with Responsibility.”</blockquote>
+        </header>
+
+        <section>
+            <h2>Personal Profile</h2>
+            <p>I’m a Bachelor of Data Science and Analytics student interested in data, programming, cybersecurity, technology, leadership, and using knowledge to create positive change in my community. I enjoy learning by building practical projects, documenting my work, and exploring how data and responsible security practices can solve real-world problems.</p>
+            <p>I am a motivated young African woman who believes in continuous learning, equal opportunities, and empowering young people, especially girls. My long-term goal is to grow into a skilled data professional and a leader who uses technology and evidence-based decision-making to make a meaningful impact.</p>
+        </section>
+
+        <section>
+            <h2>Education Background</h2>
+            <div class="item-block">
+                <h4>Bachelor of Science in Data Science and Analytics</h4>
+                <span class="meta">Uganda Christian University, Mukono Campus | Currently Pursuing</span>
+            </div>
+            <div class="item-block">
+                <h4>Advance Level Education (Biology, Chemistry, Mathematics)</h4>
+                <span class="meta">Romasa College, Mukono | 2020 - 2022</span>
+            </div>
+            <div class="item-block">
+                <h4>Ordinary Level Education</h4>
+                <span class="meta">Kef College, Masindi | 2016 – 2019</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <ul class="content-list">
+                <li><strong>Data analysis:</strong> Basic data analysis, interpretation, and working with datasets.</li>
+                <li><strong>Programming Languages:</strong> 
+                    <br><i class="fa-brands fa-python skill-icon"></i><strong>Python:</strong> Fundamentals and scripting.
+                    <br><i class="fa-brands fa-html5 skill-icon"></i><strong>HTML:</strong> Web design, structure, and development.
+                </li>
+                <li><strong>Microsoft Excel:</strong> Data organizing, calculations, and analysis.</li>
+                <li><strong>GitHub:</strong> Familiarity with managing and sharing project work.</li>
+                <li><strong>Visual Studio Code:</strong> Using a programming environment for coding and project development.</li>
+                <li><strong>Data collection:</strong> Participated in enumeration and data collection activities in class using ODK.</li>
+                <li><strong>Networking and cloud computing:</strong> Foundation knowledge.</li>
+                <li><strong>Project development:</strong> Participation in designing and developing a digital platform with a team.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Projects and Practical Experience</h2>
+            <div class="item-block">
+                <h4>UCU Skill Connect and Mentorship Platform</h4>
+                <p>Participated in a team project at Uganda Christian University called Skill Connect and mentorship, creating a platform to connect students for skill sharing, mentorship, and learning opportunities.</p>
+            </div>
+            <div class="item-block">
+                <h4>Campus Enumeration and Data Collection</h4>
+                <p>Participated in enumeration and data collection activities in class using Open Data Kit (ODK), appreciating the importance of systematic data collection as a foundation for analysis.</p>
+            </div>
+            <div class="item-block">
+                <h4>Community Cultural Dance Initiative</h4>
+                <p>Initiated cultural dance initiatives in my community to engage talented young people, particularly those at home or not attending school, helping them develop talents and explore income opportunities.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Leadership and Volunteer Experience</h2>
+            <ul class="content-list">
+                <li><strong>Dear Black Girls Movement – Ambassador and Volunteer:</strong> Support initiatives committed to reshaping narratives, advancing dignity, and promoting the power and potential of young African girls.</li>
+                <li><strong>Educate Uganda – Volunteer:</strong> Volunteered in community skills-development activities, teaching young people practical skills like liquid soap making and paper-bag production.</li>
+                <li><strong>Deyo Pa Luo – Cultural Dance Initiative:</strong> Training talented young people in cultural dance, supporting cultural preservation and youth talent engagement.</li>
+                <li><strong>School Speaker – Kef College, Masindi:</strong> Served as a school speaker, gaining experience in student leadership, communication, and representing fellow students.</li>
+                <li><strong>Recreation Center – Youth Engagement:</strong> Participated in activities promoting positive mindsets among young people and adults.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Leadership Strengths and Personal Qualities</h2>
+            <ul class="content-list">
+                <li>Communication and public speaking</li>
+                <li>Teamwork and collaboration</li>
+                <li>Community engagement and volunteerism</li>
+                <li>Willingness to learn and adapt</li>
+                <li>Honesty and respect for people from different backgrounds</li>
+                <li>Problem-solving and creativity</li>
+                <li>Interest in youth empowerment and inclusive leadership</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Career Interests and Aspirations</h2>
+            <p>My interests include data science, data analytics, emerging technologies, digital innovation, youth leadership, and community development. I aspire to build a career where I can use data and technology to help organizations and communities understand challenges, make informed decisions, and develop effective solutions.</p>
+        </section>
+
+        <section>
+            <h2>Achievements</h2>
+            <ul class="content-list">
+                <li>Successfully attained the Uganda Advance Certificate of Education (UACE)</li>
+                <li>Successfully attained the Uganda Certificate of Education (UCE)</li>
+                <li>Successfully attained the Uganda Primary Leaving Certificate (PLE)</li>
+                <li>Successfully attained certificate for speakership</li>
+                <li>Successfully attained certificate of participation with Educate Uganda</li>
+                <li>Successfully attained certificate of participation with the recreation project</li>
+                <li>Successfully attained certificate of volunteering ambassador Dear Black Girls Movement (DBG)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Hobbies and Interests</h2>
+            <ul class="content-list">
+                <li>Participating in leadership and community activities</li>
+                <li>Meeting and working with different people</li>
+                <li>Learning about emerging technologies</li>
+                <li>Reading and Cultural Dance</li>
+                <li>Playing netball and traveling the world (Adventure)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Personal Statement</h2>
+            <p>I believe that meaningful change begins with the willingness to learn, take initiatives, and work with others. My journey in Data Science and Analytics, together with my leadership and volunteer experiences, continues to shape my vision for the future. My goal is to strengthen my capabilities in data analysis, Python programming, collaborative development, cybersecurity fundamentals, and leadership to create positive impact in my community and Africa.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Lakareber Juliet Laura. Professional Portfolio.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
